@@ -116,11 +116,6 @@ a {
     color: #404bbf;
 }
 
-.screen-two,
-.screen-three,
-.screen-four {
-    list-style-type: none;
-}
 
 .screen-two .title,
 .screen-three .subtitle,
