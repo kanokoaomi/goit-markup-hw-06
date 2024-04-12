@@ -145,6 +145,10 @@ a {
     background-color: #FFFFFF;
 }
 
+.screen-three-list-li {
+    background-color: #FFFFFF;
+}
+
 .screen-two .title,
 .screen-three .subtitle,
 .screen-four .subtitle {
@@ -160,7 +164,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.screen-three .text {
+.screen-three > ul > li > .text {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
