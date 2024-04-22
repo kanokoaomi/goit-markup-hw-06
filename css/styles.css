@@ -197,6 +197,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 72px;
 }
 
 .screen-two {
@@ -242,15 +243,17 @@ a {
     gap: 24px;
 }
 
+.screen-three-card {
+    padding: 32px 0;
+}
+
 .screen-three-list .subtitle {
     text-align: center;
-    padding-top: 32px;
     padding-bottom: 8px;
 }
 
 .screen-three-list .text {
     text-align: center;
-    padding-bottom: 32px;
 }
 
 .screen-three-list-li {
@@ -281,9 +284,16 @@ a {
     border-right: 1px solid #e7e9fc;
 }
 
+/*
+.screen-four .container {
+    padding: 32px 16px;
+}
+*/
+
 .screen-four-list .subtitle {
     padding-left: 16px;
     padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .screen-four-list .text {
