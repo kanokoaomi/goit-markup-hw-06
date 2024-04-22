@@ -23,7 +23,9 @@ ul {
     padding-left: 0;
 }
 
-
+img {
+    display: block;
+}
 
 a {
     text-decoration: none;
@@ -38,15 +40,105 @@ a {
     margin-right: auto;
 }
 
-header {
-    border-bottom: 1px;
+.header {
+    border-bottom: 1px solid #e7e9fc;
     border-color: #E7E9FC;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header .logo {
+    margin-right: 76px
+}
+
+.logo-part {
+    color: #2e2f42;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list-a {
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-a:hover {
+    color: #404bbf;
+}
+
+.nav-list-a:focus {
+    color: #404bbf;
+}
+
+.page-navigation {
+    display: flex;
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #434455;
+}
+
+.address-ul {
+    display: flex;
+    gap: 40px;
+}
+
+.address:hover {
+    color: #404bbf;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.address-a {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-a:hover {
+    color: #404bbf;
+}
+
+.address-a:focus {
+    color: #404bbf;
+}
+
+.nav-list {
+    font-weight: 500;
+    line-height: 150%;
+    color: #2e2f42;
+}
+
+.nav-list:hover {
+    color: #404bbf;
 }
 
 .screen-one {
     background-color: #2e2f42;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 }
 
 .screen-one .title {
@@ -89,119 +181,22 @@ header {
     background-color: #404BBF;
 }
 
-.footer {
-    background-color: #2e2f42;
-}
-
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.footer .text {
-    font-weight: 400;
-    font-size: 16px;
-    color: #f4f4fd;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    max-width: 264px;
-    padding-top: 16px;
-}
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo-part {
-    color: #2e2f42;
-}
-
-.footer .logo-part {
-    color: #f4f4fd;
-}
-
-.container-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-list {
-    display: flex;
-    gap: 40px;
-}
-
-.nav-list-a {
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-}
-
-.nav-list-a:hover {
-    color: #404bbf;
-}
-
-.nav-list-a:focus {
-    color: #404bbf;
-}
-
-.page-navigation {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: flex;
-    gap: 76px;
-}
-
-.address {
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    color: #434455;
-}
-
-.address-ul {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: flex;
-    gap: 40px;
-}
-
-.address:hover {
-    color: #404bbf;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-}
-
-.address-a {
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.address-a:hover {
-    color: #404bbf;
-}
-
-.address-a:focus {
-    color: #404bbf;
-}
-
-.nav-list {
-    font-weight: 500;
-    line-height: 150%;
-    color: #2e2f42;
-}
-
-.nav-list:hover {
-    color: #404bbf;
-}
-
 .screen-two .container .title {
     margin-bottom: 8px;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .screen-two {
@@ -322,3 +317,25 @@ header {
     letter-spacing: 0.02em;
 }
 
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer .text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+    padding-top: 16px;
+}
+
+.footer .logo-part {
+    color: #f4f4fd;
+}
