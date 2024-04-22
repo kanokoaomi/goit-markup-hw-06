@@ -67,8 +67,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-list {
@@ -92,6 +90,7 @@ a {
 .page-navigation {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .address {
@@ -320,9 +319,6 @@ a {
 
 .footer {
     background-color: #2e2f42;
-}
-
-.footer-container {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -334,7 +330,11 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    padding-top: 16px;
+}
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer .logo-part {
