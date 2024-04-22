@@ -34,10 +34,10 @@ a {
 
 .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header {
@@ -91,6 +91,7 @@ a {
 
 .page-navigation {
     display: flex;
+    align-items: center;
 }
 
 .address {
