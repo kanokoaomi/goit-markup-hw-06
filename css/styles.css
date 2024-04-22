@@ -69,11 +69,13 @@ a {
     align-items: center;
 }
 
+/*
 .nav-list {
     display: flex;
     gap: 40px;
     padding: 24px 0;
 }
+*/
 
 .nav-list-a {
     color: #2e2f42;
@@ -187,7 +189,6 @@ a {
 .screen-two .container .title {
     margin-bottom: 8px;
 }
-
 
 .visually-hidden {
     position: absolute;
