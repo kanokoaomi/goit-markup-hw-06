@@ -231,7 +231,7 @@ a {
 }
 
 .screen-three .title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .screen-three .title,
@@ -255,7 +255,7 @@ a {
 
 .screen-three-list .subtitle {
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .screen-three-list .text {
