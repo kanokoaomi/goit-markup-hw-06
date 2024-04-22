@@ -72,6 +72,7 @@ a {
 .nav-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-list-a {
@@ -90,7 +91,9 @@ a {
 .page-navigation {
     display: flex;
     align-items: center;
+    /*
     padding: 24px 0;
+    */
 }
 
 .address {
@@ -197,6 +200,9 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.screen-two .title-hidden {
     margin-bottom: 72px;
 }
 
@@ -268,7 +274,7 @@ a {
 }
 
 .screen-four .title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .screen-four-list {
@@ -282,6 +288,7 @@ a {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
 }
 
 /*
@@ -291,15 +298,15 @@ a {
 */
 
 .screen-four-list .subtitle {
-    padding-left: 16px;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
+/*
 .screen-four-list .text {
     padding-left: 16px;
     padding-bottom: 32px;
 }
+*/
 
 .screen-two .title,
 .screen-three .subtitle,
