@@ -315,7 +315,7 @@ a {
     max-height: 40px;
     max-width: 40px;
     background-color: #4D5AE5;
-    padding: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-div:hover {
@@ -324,7 +324,7 @@ a {
 }
 
 .screen-three-social-links .icon {
-    fill: none;
+    fill: #f4f4fd;
 }
 
 .screen-three-list-li {
