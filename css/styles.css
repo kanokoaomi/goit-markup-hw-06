@@ -493,7 +493,8 @@ a {
     padding: 8px;
 }
 
-.footer .icon-div:hover {
+.footer .icon-div:hover,
+.footer .icon-div:focus {
     background-color: #31D0AA;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
