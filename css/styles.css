@@ -252,8 +252,8 @@ a {
 
 .screen-two .icon {
     fill: none;
-    width: 64px;
-    height: 64px;
+    /*width: 64px;
+    height: 64px;*/
 }
 
 .screen-three {
