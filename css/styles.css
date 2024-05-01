@@ -490,7 +490,3 @@ a {
     background-color: #31D0AA;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.screen-three-social-links .icon {
-    fill: none;
-}
