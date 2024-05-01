@@ -156,6 +156,7 @@ a {
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
 }
 
 .screen-one .title {
@@ -241,7 +242,7 @@ a {
     align-items: center;
     justify-content: center;
     padding: 24px 100px;
-    border: 2px solid #8E8F99;
+    border: 1px solid #8E8F99;
     background-color: #F4F4FD;
     border-radius: 4px;
     max-width: 264px;
@@ -249,8 +250,10 @@ a {
     margin-bottom: 8px;
 }
 
-.icon {
+.screen-two .icon {
     fill: none;
+    width: 64px;
+    height: 64px;
 }
 
 .screen-three {
