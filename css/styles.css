@@ -439,12 +439,13 @@ a {
 .footer-container {
     display: flex;
     justify-content: flex-start;
-    gap: 120px;
+    align-items: baseline;
     margin: 0;
 }
 
 .footer-content {
     margin-left: 156px;
+    margin-right: 120px;
 }
 
 .footer .logo {
@@ -480,7 +481,7 @@ a {
     align-items: center;
     max-width: 232px;
     max-height: 40px;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer .icon-div {
