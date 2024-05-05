@@ -57,7 +57,47 @@
                 <h1 class="title">Effective Solutions for Your Business</h1>
                 <button type="button" class="button">Order Service</button>
             </div>
-        </section>      
+            <div class="modal-overlay">
+                <div class="modal">
+                    <p class="modal-title">Leave your contacts and we will call you back</p>
+                    <button type="button" class="modal-btn-close">
+                        <svg class="modal-btn-close-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+                        </svg>
+                    </button>
+                    <form class="modal-form">
+                        <ul class="modal-form-list">
+                            <li>
+                                <label for="name" class="label">Name</label>
+                                <input id="name" class="input" type="text" name="name" autofocus>
+                            </li>
+                            <li>
+                                <label for="phone" class="label">Phone</label>
+                                <input id="phone" class="input" type="tel" name="tel">
+                            </li>
+                            <li>
+                                <label for="email" class="label">Email</label>
+                                <input id="email" class="input" type="email" name="email">
+                            </li>
+                            <li>
+                                <label class="label" for="comment">Comment</label>
+                                <textarea class="comment" name="textarea" rows="7" placeholder="Text input" id="comment"></textarea>
+                            </li>
+                        </ul>
+                        <div class="div-agreement">
+                            <input id="agreement" type="checkbox" name="agreement" class="input-agreement">
+                            <label class="label-agreement" for="agreement">
+                                I accept the terms and conditions of the
+                                <span>
+                                    <a href="">Privacy Policy</a>
+                                </span>
+                            </label>
+                        </div>
+                        <button type="submit" class="form-button">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
         <section class="screen-two">
             <div class="container">
