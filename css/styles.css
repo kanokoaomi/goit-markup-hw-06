@@ -779,12 +779,13 @@ a {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    max-width: 165px;
+    min-width: 165px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     display: inline-flex;
     justify-content: center;
+    align-items: center;
     /*gap: 16px;*/
 }
 
