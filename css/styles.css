@@ -322,6 +322,10 @@ a {
     margin-bottom: 16px;*/
 }
 
+.comment-div {
+    margin-bottom: 16px;
+}
+
 .comment:focus {
     border-color: #4d5ae5;
 }
