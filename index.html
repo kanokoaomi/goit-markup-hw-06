@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="stylesheet" href="./css/new-styles.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,7 +21,7 @@
 
 <body>
     <header class="header">
-        <div class="container container-nav">
+        <div class="container-nav">
             <nav class="page-navigation">
                 <div class="phone-navigation-line">
                     <a href="./index.html" class="logo">
@@ -60,63 +60,63 @@
             </address>
 
             <div class="phone-menu">
-                <div class="menu-container">
+                <div class="menu-container container">
 
-                    <button type="button" class="modal-btn-close">
-                        <svg class="modal-btn-close-icon" width="8" height="8">
+                    <button type="button" class="modal-btn-close-phone">
+                        <svg class="modal-btn-close-phone-icon" width="8" height="8">
                             <use href="./images/icons.svg#icon-close-black-18dp"></use>
                         </svg>
                     </button>
 
-                    <nav>
-                        <ul class="nav-list">
+                    <nav class="navigation">
+                        <ul class="nav-list-phone">
                             <li>
-                                <a href="" class="nav-list-a current">Studio</a>
+                                <a href="" class="nav-list-a-phone current">Studio</a>
                             </li>
                             <li>
-                                <a href="" class="nav-list-a">Portfolio</a>
+                                <a href="" class="nav-list-a-phone">Portfolio</a>
                             </li>
                             <li>
-                                <a href="" class="nav-list-a">Contacts</a>
+                                <a href="" class="nav-list-a-phone">Contacts</a>
                             </li>
                         </ul>
                     </nav>
-                    <address class="address">
-                        <ul class="address-ul">
+                    <address class="address-phone">
+                        <ul class="address-ul-phone">
                             <li>
-                                <a href="mailto:info@devstudio.com" class="address-a current-address">info@devstudio.com</a>
+                                <a href="mailto:info@devstudio.com" class="address-a-phone current-address">info@devstudio.com</a>
                             </li>
                             <li>
-                                <a href="tel:+110001111111" class="address-a">+11 (000) 111-11-11</a>
+                                <a href="tel:+110001111111" class="address-a-phone">+11 (000) 111-11-11</a>
                             </li>
                         </ul>
                     </address>
 
                     <ul class="screen-three-social-links social-media-menu">
-                        <li class="icon-li">
-                            <a href="" class="icon-div">
-                                <svg class="icon" width="16" height="16" fill="#f4f4fd">
+                        <li class="icon-li-phone">
+                            <a href="" class="icon-div-phone">
+                                <svg class="icon-phone" width="16" height="16" fill="#f4f4fd">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="icon-li">
-                            <a href="" class="icon-div">
-                                <svg class="icon" width="16" height="16" fill="#f4f4fd">
+                        <li class="icon-li-phone">
+                            <a href="" class="icon-div-phone">
+                                <svg class="icon-phone" width="16" height="16" fill="#f4f4fd">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="icon-li">
-                            <a href="" class="icon-div">
-                                <svg class="icon" width="16" height="16" fill="#f4f4fd">
+                        <li class="icon-li-phone">
+                            <a href="" class="icon-div-phone">
+                                <svg class="icon-phone" width="16" height="16" fill="#f4f4fd">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="icon-li">
-                            <a href="" class="icon-div">
-                                <svg class="icon" width="16" height="16" fill="#f4f4fd">
+                        <li class="icon-li-phone">
+                            <a href="" class="icon-div-phone">
+                                <svg class="icon-phone" width="16" height="16" fill="#f4f4fd">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -196,7 +196,7 @@
                 <ul class="screen-three-list">
                     <li class="screen-three-list-li">
                         <img 
-                        srcset=""
+                        srcset="./images/retina-phone/img1@2x.jpg 2x"
                         src="./images/img_img.jpg" 
                         alt="photo" width="264">
                         <div class="screen-three-card">
@@ -235,7 +235,9 @@
                         </div>
                     </li>
                     <li class="screen-three-list-li">
-                        <img src="./images/img(1)1.jpg" alt="photo" width="264">
+                        <img 
+                        srcset="./images/retina-phone/img2@2x.jpg 2x"
+                        src="./images/img(1)1.jpg" alt="photo" width="264">
                         <div class="screen-three-card">
                             <h3 class="subtitle">Tom Ford</h3>
                             <p class="text">Frontend Developer</p>
@@ -272,7 +274,9 @@
                         </div>
                     </li>
                     <li class="screen-three-list-li">
-                        <img src="./images/img(2)2.jpg" alt="photo" width="264">
+                        <img 
+                        srcset="./images/retina-phone/img3@2x.jpg 2x"
+                        src="./images/img(2)2.jpg" alt="photo" width="264">
                         <div class="screen-three-card">
                             <h3 class="subtitle">Camila Garcia</h3>
                             <p class="text">Marketing</p>
@@ -309,7 +313,9 @@
                         </div>
                     </li>
                     <li class="screen-three-list-li">
-                        <img src="./images/img(3)3.jpg" alt="photo" width="264">
+                        <img 
+                        srcset="./images/retina-phone/img4@2x.jpg 2x"
+                        src="./images/img(3)3.jpg" alt="photo" width="264">
                         <div class="screen-three-card">
                             <h3 class="subtitle">Daniel Wilson</h3>
                             <p class="text">UI Designer</p>
@@ -355,7 +361,18 @@
                 <ul class="screen-four-list">
                     <li class="screen-four-card">
                         <div class="screen-four-card-overlay">
-                            <img src="./images/img.jpg" alt="picture" width="360">
+                            <picture>
+                                <source media="(min-width:1158px)" 
+                                srcset="./images/retina-desktop/img.jpg 1x, ./images/retina-desktop/img@2x.jpg 2x">
+
+                                <source media="(min-width:768px)" 
+                                srcset="./images/retina-tablet/img.jpg 1x, ./images/retina-tablet/img@2x.jpg 2x">
+
+                                <source media="(max-width:767px)" 
+                                srcset="./images/retina-phone/img.jpg 1x, ./images/retina-phone/img@2x.jpg 2x">
+
+                                <img src="./images/img.jpg" alt="picture">
+                            </picture>
                             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                             Fruit Ecommerce App ·
                             Cloud Storage App</p>
@@ -367,7 +384,18 @@
                     </li>
                     <li class="screen-four-card">
                         <div class="screen-four-card-overlay">
-                            <img src="./images/img1.jpg" alt="picture" width="360">
+                            <picture>
+                                <source media="(min-width:1158px)" 
+                                srcset="./images/retina-desktop/img1.jpg 1x, ./images/retina-desktop/img1@2x.jpg 2x">
+
+                                <source media="(min-width:768px)" 
+                                srcset="./images/retina-tablet/img1.jpg 1x, ./images/retina-tablet/img1@2x.jpg 2x">
+                                
+                                <source media="(max-width:767px)" 
+                                srcset="./images/retina-phone/img1-2.jpg 1x, ./images/retina-phone/img1-2@2x.jpg 2x">
+
+                                <img src="./images/img1.jpg" alt="picture">
+                            </picture>
                             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                             Fruit Ecommerce App ·
                             Cloud Storage App</p>
@@ -379,7 +407,18 @@
                     </li>
                     <li class="screen-four-card">
                         <div class="screen-four-card-overlay">
-                            <img src="./images/img2.jpg" alt="picture" width="360">
+                            <picture>
+                                <source media="(min-width:1158px)" 
+                                srcset="./images/retina-desktop/img2.jpg 1x, ./images/retina-desktop/img2@2x.jpg 2x">
+                                
+                                <source media="(min-width:768px)" 
+                                srcset="./images/retina-tablet/img2.jpg 1x, ./images/retina-tablet/img2@2x.jpg 2x">
+                                
+                                <source media="(max-width:767px)" 
+                                srcset="./images/retina-phone/img2-1.jpg 1x, ./images/retina-phone/img2-1@2x.jpg 2x">
+                                
+                                <img src="./images/img.jpg" alt="picture">
+                            </picture>
                             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                             Fruit Ecommerce App ·
                             Cloud Storage App</p>
@@ -391,7 +430,18 @@
                     </li>
                     <li class="screen-four-card">
                         <div class="screen-four-card-overlay">
-                            <img src="./images/img3.jpg" alt="picture" width="360">
+                            <picture>
+                                <source media="(min-width:1158px)" 
+                                srcset="./images/retina-desktop/img3.jpg 1x, ./images/retina-desktop/img3@2x.jpg 2x">
+                                
+                                <source media="(min-width:768px)" 
+                                srcset="./images/retina-tablet/img3.jpg 1x, ./images/retina-tablet/img3@2x.jpg 2x">
+                                
+                                <source media="(max-width:767px)" 
+                                srcset="./images/retina-phone/img3-1.jpg 1x, ./images/retina-phone/img3-1@2x.jpg 2x">
+                                
+                                <img src="./images/img.jpg" alt="picture">
+                            </picture>
                                 <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                                 Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -403,7 +453,18 @@
                     </li>
                     <li class="screen-four-card">
                         <div class="screen-four-card-overlay">
-                            <img src="./images/img4.jpg" alt="picture" width="360">
+                            <picture>
+                                <source media="(min-width:1158px)" 
+                                srcset="./images/retina-desktop/img4.jpg 1x, ./images/retina-desktop/img4@2x.jpg 2x">
+                                
+                                <source media="(min-width:768px)" 
+                                srcset="./images/retina-tablet/img4.jpg 1x, ./images/retina-tablet/img4@2x.jpg 2x">
+                                
+                                <source media="(max-width:767px)" 
+                                srcset="./images/retina-phone/img4-1.jpg 1x, ./images/retina-phone/img4-1@2x.jpg 2x">
+                                
+                                <img src="./images/img.jpg" alt="picture">
+                            </picture>
                                 <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                                 Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -415,7 +476,18 @@
                     </li>
                     <li class="screen-four-card">
                         <div class="screen-four-card-overlay">
-                            <img src="./images/img5.jpg" alt="picture" width="360">
+                            <picture>
+                                <source media="(min-width:1158px)" 
+                                srcset="./images/retina-desktop/img5.jpg 1x, ./images/retina-desktop/img5@2x.jpg 2x">
+                                
+                                <source media="(min-width:768px)" 
+                                srcset="./images/retina-tablet/img5.jpg 1x, ./images/retina-tablet/img5@2x.jpg 2x">
+                                
+                                <source media="(max-width:767px)" 
+                                srcset="./images/retina-phone/img5.jpg 1x, ./images/retina-phone/img5@2x.jpg 2x">
+                                
+                                <img src="./images/img.jpg" alt="picture">
+                            </picture>
                                 <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                                 Fruit Ecommerce App ·
                                 Cloud Storage App</p>
