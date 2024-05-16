@@ -424,7 +424,7 @@ img {
     padding-bottom: 96px;
 }
 
-.screen-four .overlay-text {
+.overlay-text {
     display: none;
 }
 
@@ -1138,7 +1138,7 @@ img {
     }
     
     .overlay-text {
-        display: contents;
+        display: inline;
         position: absolute;
         left: 0;
         top: 0;
