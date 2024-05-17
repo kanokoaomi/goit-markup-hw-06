@@ -34,15 +34,28 @@ img {
     max-width: 100%;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
 .container {
-    max-width: 288px;
+    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .container-nav .nav-list,
 .container-nav .address {
     display: none;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-container {
@@ -56,9 +69,6 @@ img {
 }
 
 .menu-btn {
-    position: absolute;
-    top: 16px;
-    right: 16px;
     width: 24px;
     height: 24px;
     padding: 0;
@@ -179,7 +189,7 @@ img {
     color: #404bbf;
 }
 
-.current-address {
+.current-phone {
     color: #4d5ae5;
 }
 
@@ -215,12 +225,6 @@ img {
     fill: #f4f4fd;
 }
 
-.phone-navigation-line {
-    display: flex;
-    align-items: center;
-    padding: 16px 0;
-}
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -229,6 +233,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: block;
+}
+
+.header-logo {
+    padding: 16px 0;
 }
 
 .logo-part {
@@ -242,11 +251,11 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/Dark-bg.jpg);
     max-width: 320px;
-    height: 432px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
+    padding: 72px 0;
 }
 
 @media screen and (min-resolution: 192dpi) {
@@ -267,7 +276,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
-    padding-top: 72px;
 }
 
 .button {
@@ -371,7 +379,7 @@ img {
 }
 
 .screen-three-card {
-    margin: 32px auto;
+    padding: 32px 0;
 }
 
 .screen-three-card .subtitle {
@@ -437,6 +445,9 @@ img {
 
 .screen-four-card {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 .screen-four-content {
@@ -467,8 +478,9 @@ img {
 }
 
 .footer .logo {
-    display: inline-block;
+    display: block;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer .logo-part {
@@ -479,6 +491,9 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.footer-content {
     margin-bottom: 72px;
 }
 
@@ -496,6 +511,9 @@ img {
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+.footer-media {
     margin-bottom: 72px;
 }
 
@@ -509,7 +527,6 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     opacity: 0.3;
     padding-left: 16px;
-    margin-bottom: 16px;
 }
 
 .footer-input::placeholder {
@@ -518,6 +535,10 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     opacity: 0.6;
+}
+
+.footer-label {
+    margin-bottom: 16px;
 }
 
 .footer-button-subscribe {
@@ -792,7 +813,7 @@ img {
 @media (min-width: 768px) {
 
     .container {
-        max-width: 736px;
+        max-width: 768px;
     }
 
     .container-nav .nav-list,
@@ -869,8 +890,9 @@ img {
         color: #404bbf;
     }
 
-    .logo {
+    .header-logo {
         margin-right: 120px;
+        padding: 24px 0;
     }
 
 /* ============= screen one ============= */
@@ -879,19 +901,17 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/Dark-bg-tablet.jpg);
         max-width: 768px;
-        height: 436px;
+        padding: 112px 0;
     }
 
     .screen-one .title {
         font-size: 56px;
         line-height: 107%;
         max-width: 496px;
-        padding-top: 112px;
         margin-bottom: 36px;
     }
 
-
-    /* ------------ screen two ------------ */
+/* ------------ screen two ------------ */
 
     .screen-two-list {
         display: flex;
@@ -916,8 +936,8 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        row-gap: 24px;
-        column-gap: 64px;
+        row-gap: 64px;
+        column-gap: 24px;
     }
 
 
@@ -932,6 +952,14 @@ img {
     }
 
     /* ============ footer ============ */
+
+    .footer-container {
+        padding-left: 108px;
+    }
+
+    .footer .logo {
+        text-align: start;
+    }
 
     .footer .text {
         max-width: 264px;
@@ -949,7 +977,6 @@ img {
     .footer-content-and-media {
         display: flex;
         gap: 24px;
-        margin-left: 108px;
     }
 
     .footer-form {
@@ -961,17 +988,13 @@ img {
         margin-bottom: 0;
     }
 
-    .footer-subscribe {
-        margin-left: 108px;
-    }
-
     .footer-button-subscribe {
         display: inline-flex;
         margin-left: 0;
         margin-right: 0;
     }
 
-    /* ============= modal window ============= */
+/* ============= modal window ============= */
 
     .modal {
         width: 408px;
@@ -1000,19 +1023,20 @@ img {
     }
 }
 
-@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
-    .screen-one {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg-desktop@2x.jpg);
-        max-width: 1440px;
-    }
-}
+
+
+/* ============ DESKTOP ============= */
+
 
 @media (min-width: 1158px) {
     .container {
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .header-logo {
+        margin-right: 76px;
     }
 
     .nav-list-a:hover,
@@ -1042,11 +1066,10 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-bg.jpg);
         max-width: 1440px;
-        height: 600px;
+        padding: 180px 0;
     }
 
     .screen-one .title {
-        padding-top: 180px;
         margin-bottom: 48px;
     }
 
@@ -1118,6 +1141,10 @@ img {
         padding-bottom: 120px;
     }
 
+    .screen-four-list {
+        row-gap: 48px;
+    }
+
     .screen-four-card {
         box-shadow: none;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1133,7 +1160,7 @@ img {
         overflow: hidden;
     }
     
-    .screen-four-card-overlay:hover .overlay-text {
+    .screen-four-card:hover .overlay-text {
         transform: translateY(0);
     }
     
@@ -1168,8 +1195,12 @@ img {
         align-items: baseline;
     }
 
+    .footer-content,
+    .footer-media {
+        margin-bottom: 0;
+    }
+
     .footer-content-and-media {
-        margin-left: 0;
         gap: 120px;
     }
 
@@ -1183,5 +1214,13 @@ img {
 
     .footer-social-links {
         margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .screen-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg-desktop@2x.jpg);
+        max-width: 1440px;
     }
 }
