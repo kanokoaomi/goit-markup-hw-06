@@ -445,13 +445,14 @@ img {
 
 .screen-four-card {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+    width: 100%;
 }
 
 .screen-four-content {
     padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 .screen-four-content .subtitle {
@@ -538,6 +539,7 @@ img {
 }
 
 .footer-label {
+    display: block;
     margin-bottom: 16px;
 }
 
@@ -951,6 +953,10 @@ img {
         row-gap: 72px;
     }
 
+    .screen-four-card {
+        width: calc((100% - 24px) /2 );
+    }
+
     /* ============ footer ============ */
 
     .footer-container {
@@ -1148,6 +1154,7 @@ img {
     .screen-four-card {
         box-shadow: none;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        width: calc((100% - 48px) /3);
     }
     
     .screen-four-card:hover {
