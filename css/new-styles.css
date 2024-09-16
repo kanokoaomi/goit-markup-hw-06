@@ -244,7 +244,7 @@ img {
     color: #2e2f42;
 }
 
-/* ------ screen one ------- */
+/* ------ section one ------- */
 
 .screen-one {
     background-color: #2e2f42;
@@ -299,7 +299,7 @@ img {
 }
 
 
-/* --------- screen two --------- */
+/* --------- section two --------- */
 
 .screen-two {
     padding-top: 96px;
@@ -347,7 +347,7 @@ img {
     row-gap: 72px;
 }
 
-/* --------- screen three --------- */
+/* --------- section three --------- */
 
 .screen-three {
     padding-top: 96px;
@@ -425,7 +425,7 @@ img {
     align-items: center;
 }
 
-/* --------- screen four --------- */
+/* --------- section four --------- */
 
 .screen-four {
     padding-top: 96px;
@@ -556,12 +556,18 @@ img {
 
     border-radius: 4px;
     border: none;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     color: #fff;
     fill: #fff;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* =========== modal =========== */
+.footer-button-subscribe:hover {
+    background-color: #404BBF;
+}
+
+/* =========== modal window =========== */
 
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
@@ -617,10 +623,6 @@ img {
     margin-bottom: 8px;
 }
 
-/* .modal-form:last-child {
-    margin-bottom: 16px;
-} */
-
 .label {
     font-weight: 400;
     font-size: 12px;
@@ -641,13 +643,6 @@ img {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .modal-icon-name::after {
-    border: 1.25px solid #2e2f42;
-    width: 18px;
-    height: 0px;
-    transform: rotate(-90deg);
-} */
 
 .input:focus {
     border-color: #4d5ae5;
